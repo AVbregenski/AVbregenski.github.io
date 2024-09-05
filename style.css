@@ -1,0 +1,9 @@
+
+  h1,h2,p,ul {
+        text-align: center;
+      }
+      body {
+        background: lightblue url("img_tree.gif") no-repeat fixed center;
+      }
+
+      
