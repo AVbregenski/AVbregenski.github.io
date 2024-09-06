@@ -5,32 +5,33 @@
    
   
   }
-  h1,h2,p,ul {
+  h1,h2,p,nav,ul {
         text-align: center;
         ;
       }
       
     a:link {
   background-color: rgb(255, 255, 255);
+  text-align: center;
+  text-align: justify;
 }
+
 h1 {text-shadow: 2px 2px #832dec}
 body {
   background: rgb(200, 187, 205) url("img_tree.gif") no-repeat fixed center;
+  
 }
 a:link, a:visited {
   background-color: #832dec;
   color: white;
   padding: 14px 25px;
-  text-align: center;
   text-decoration: none;
   display: inline-block;
   border-radius: 8px;
   font-family: monospace;
 
 }
-h1,h2,p,ul {
-  text-align: center;
-}
+
 body {
 background: rgb(200, 187, 205) url("img_tree.gif") no-repeat fixed center;
 font-family: monospace;
