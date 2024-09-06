@@ -5,21 +5,22 @@
    
   
   }
-  h1,h2,p,nav,ul {
-        text-align: center;
-        ;
-      }
-      
-    a:link {
-  background-color: rgb(255, 255, 255);
-  text-align: center;
-  text-align: justify;
-}
 
-h1 {text-shadow: 2px 2px #832dec}
+
+h1 {text-align: center;
+  text-shadow: 2px 2px #832dec;
+  font-size: 4.5cap;
+}
+h2{
+  text-align: center;
+  
+}
 body {
   background: rgb(200, 187, 205) url("img_tree.gif") no-repeat fixed center;
-  
+  background-image: url("photo2/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 2.5cap;
 }
 a:link, a:visited {
   background-color: #832dec;
@@ -32,11 +33,9 @@ a:link, a:visited {
 
 }
 
-body {
-background: rgb(200, 187, 205) url("img_tree.gif") no-repeat fixed center;
-font-family: monospace;
-font-size: 2.5cap;
-}
+img{ border-radius: 4cap;
+  float: left;
+} 
 a:hover, a:active {
 
   border-radius: 10px;
@@ -44,3 +43,7 @@ a:hover, a:active {
 
 }
 
+nav, ul{
+
+  text-align: center;
+}
