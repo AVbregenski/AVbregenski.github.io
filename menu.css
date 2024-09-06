@@ -10,9 +10,14 @@ body {
     text-decoration: none;
     display: inline-block;
     border-radius: 8px;
+    font-size: 2.5cap;
+    font-family: monospace;
   }
   h1 {
     text-align: center;
-    size: 40cap;
+    font-size: 7cap;
+    font-family:monospace ;
+    color: white;
+    
   }
   
