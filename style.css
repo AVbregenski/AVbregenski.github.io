@@ -8,12 +8,15 @@
 
 
 h1 {text-align: center;
-  text-shadow: 2px 2px #832dec;
+  color: rgb(118, 64, 172);
+  text-shadow: 1px 1px #3b1767;
   font-size: 4.5cap;
 }
 h2{
   text-align: center;
-  
+  color: rgb(118, 64, 172);
+  text-shadow: 1px 1px #3b1767;
+  font-size: 2.5cap;
 }
 body {
   background: rgb(200, 187, 205) url("img_tree.gif") no-repeat fixed center;
@@ -21,6 +24,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 2.5cap;
+  color: rgb(57, 30, 84);
 }
 a:link, a:visited {
   background-color: #832dec;
@@ -32,10 +36,6 @@ a:link, a:visited {
   font-family: monospace;
 
 }
-
-img{ border-radius: 4cap;
-  float: left;
-} 
 a:hover, a:active {
 
   border-radius: 10px;
@@ -47,3 +47,25 @@ nav, ul{
 
   text-align: center;
 }
+
+img{ 
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  height: 100vh; /* Adjust the height as needed */ 
+  float: left;
+} 
+
+img   { 
+  width: 350px; /* Adjust the width as needed */ 
+  height: auto; /* Maintain aspect ratio */ 
+  box-shadow: 1px 1px #3b17678f;
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+
+/*
+- ajustar as fotos
+- separar no html e no css
+- 
+- */
