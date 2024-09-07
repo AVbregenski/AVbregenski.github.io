@@ -1,23 +1,26 @@
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-   
-  
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
 
-h1 {text-align: center;
+}
+
+
+h1 {
+  text-align: center;
   color: rgb(118, 64, 172);
   text-shadow: 1px 1px #3b1767;
   font-size: 4.5cap;
 }
-h2{
+
+h2 {
   text-align: center;
   color: rgb(118, 64, 172);
   text-shadow: 1px 1px #3b1767;
   font-size: 2.5cap;
 }
+
 body {
   background: rgb(200, 187, 205) url("img_tree.gif") no-repeat fixed center;
   background-image: url("photo2/background.jpg");
@@ -26,7 +29,9 @@ body {
   font-size: 2.5cap;
   color: rgb(57, 30, 84);
 }
-a:link, a:visited {
+
+a:link,
+a:visited {
   background-color: #832dec;
   color: white;
   padding: 14px 25px;
@@ -36,31 +41,39 @@ a:link, a:visited {
   font-family: monospace;
 
 }
-a:hover, a:active {
+
+a:hover,
+a:active {
 
   border-radius: 10px;
   font-family: monospace;
 
 }
 
-nav, ul{
+nav,
+ul {
 
   text-align: center;
 }
 
-img{ 
-  display: flex; 
-  justify-content: space-around; 
-  align-items: center; 
-  height: 100vh; /* Adjust the height as needed */ 
-  float: left;
-} 
+img{
+  box-shadow: 2px 2px#2005419d;
+  border-radius: 60px;
+  width: 350px;
+  height: auto;
+ float: left;
+ 
+}
 
-img   { 
-  width: 350px; /* Adjust the width as needed */ 
-  height: auto; /* Maintain aspect ratio */ 
+img :nth-child(2) {
+  
+  float: right;
+  /* Adjust the width as needed */
+  
+  /* Maintain aspect ratio */
   box-shadow: 1px 1px #3b17678f;
-  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+  border-radius: 8px;
+  /* Optional: Add border-radius for rounded corners */
 }
 
 
