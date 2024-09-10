@@ -1,65 +1,148 @@
-.center {
+/* Centro de elementos */
+.center,
+.quarter {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 
+.quarter {
+  margin-top: 20px;
+}
 
+/* Estilo do corpo */
+body {
+  background-color: rgb(228, 217, 237);
+  color: #3b1767;
+  font-family: monospace;
+}
+
+/* Estilo dos cabeçalhos */
 h1 {
   text-align: center;
-  color: rgb(118, 64, 172);
-  text-shadow: 1px 1px #3b1767;
-  font-size: 4.5cap;
+  color: #e9e0f5;
+  text-shadow: 2px 1px #2d114c;
+  background-color: #3b1767;
+  border-radius: 25px;
+  font-family: monospace;
+  font-size: 10cap;
 }
 
 h2 {
   text-align: center;
-  color: rgb(118, 64, 172);
-  text-shadow: 1px 1px #3b1767;
-  font-size: 2.5cap;
+  font-size: 4cap;
+  text-shadow: 2px 1px #2d114c;
+  color: #e9e0f5;
+  background-color: #3b1767;
+  border-radius: 5.5px;
+  font-family: monospace;
+  margin: 200px 50px 10px 50px;
 }
 
-body{
-  background: rgb(200, 187, 205) url("img_tree.gif") no-repeat fixed center;
-  background-image: url("photo2/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+/* Estilo dos parágrafos */
+p {
+  color: #2d114c;
+  font-family: monospace;
   font-size: 2.5cap;
-  color: rgb(57, 30, 84);
-  margin-left: 300;
+  text-align: left;
+  justify-content: center;
+  background-color: #9e63dd4c;
+  border-radius: 10px;
+  margin: 90px 400px 50px 50px;
+  margin-top: 100px;
 }
 
+/* Estilo das listas */
+li {
+  color: #ffffff;
+  font-family: monospace;
+  font-size: 2.5cap;
+  text-align: center;
+  background-color: #2d114ccc;
+  margin: 50px 50px 50px 50px;
+  border-radius: 10px;
+}
+
+ul {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+.infohome {
+  text-align: center;
+  float: center;
+}
+
+img#hz-logo {
+  float: right;
+  margin: 0px 15px 10px 0px;
+}
+
+/* Estilo dos links */
 a:link,
 a:visited {
-  background-color: #832dec;
+  box-shadow: 2px 2px #2005419d;
+  background-color: #3b1767;
   color: white;
   padding: 14px 25px;
   text-decoration: none;
   display: inline-block;
   border-radius: 8px;
+  font-size: 2.5cap;
   font-family: monospace;
-
 }
 
 a:hover,
 a:active {
   border-radius: 10px;
+}
+
+/* Estilo das imagens */
+#cartoon {
+  box-shadow: 2px 2px #2005419d;
+  border-radius: 50px;
+  float: right;
+  margin-right: 50px;
+}
+
+#ict {
+  float: center;
+  box-shadow: 2px 2px #2005419d;
+  border-radius: 1000px;
+
+}
+
+
+/* Estilo das tabelas */
+table,
+th,
+td {
+  text-align: center;
+  border: 1px solid rgba(33, 16, 51, 0.669);
+  width: 50%;
+  background: #832dec38;
+  color: rgb(0, 0, 0);
+  border-radius: 4px;
   font-family: monospace;
 }
 
-nav,
-ul {
+/* Estilo de elementos com id #eu */
+#eu {
+  border-radius: 60px;
+  float: right;
+  margin: 180px 100px 350px 90px;
+}
+
+/* Estilo para section e h1, redundante com h1, mantido para consistência */
+section {
+  font-size: 1.7cap;
+  font-family: monospace;
+}
+
+footer p {
+  margin: 0%;
   text-align: center;
-}
-
-img{
-  box-shadow: 2px 2px#2005419d;
-  border-radius: 50px;
-}
-
-table,th,td {
-
-    border: 1px solid rebeccapurple;
-    width:100%; 
+  font-size: 20px;
+  display: block;
 }
