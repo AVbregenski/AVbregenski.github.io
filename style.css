@@ -16,18 +16,19 @@
   background-color: #9e63dd4c;
   border-radius: 10px;
   margin-top: 100px;
-  margin-right: 520px;
+  margin-right: 650px;
   margin-left: 50px;
 }
-.movietext{color: #2d114c;
+
+.movietext {
+  color: #2d114c;
   font-family: monospace;
   font-size: 2.5cap;
   text-align: left;
-  
   background-color: #9e63dd4c;
   border-radius: 10px;
   margin-top: 100px;
-  margin-right: 520px;
+  margin-right: 650px;
   margin-left: 50px;
 
 }
@@ -84,7 +85,7 @@ h3 {
 }
 
 /* Estilo das listas */
-li {
+#lists {
   color: #ffffff;
   font-family: monospace;
   font-size: 2.5cap;
@@ -163,7 +164,7 @@ td {
   border-radius: 60px;
   box-shadow: 2px 2px #2005419d;
   float: right;
-  margin: 0px 100px 100px 160px;
+  margin: 30px 200px 100px 200px;
 }
 
 /* Estilo para section e h1, redundante com h1, mantido para consistência */
@@ -171,15 +172,30 @@ section {
   font-size: 1.7cap;
   font-family: monospace;
 }
-#kick-ass {float: right;
+
+#kick-ass {
+
+  float:right;
   box-shadow: 2px 2px #2005419d;
   border-radius: 40px;
+  margin: 30px 200px 100px 200px;
 }
 
 footer {
-
   text-align: center;
   font-size: 20px;
   display: block;
   background-color: #9e63dd4c;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+details {
+  margin-bottom: 5px;
+  background-color: #5b4277b1;
+  font-size: 18px;
+  padding: 9px 9px;
+  border-radius: 10px;
+  justify-content: space-between;
+  color:#e9e0f5
 }
