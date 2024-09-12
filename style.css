@@ -130,11 +130,11 @@ a {
   font-family: monospace;
 }
 
-/* Estilo das imagens */
 #cartoon {
   box-shadow: 2px 2px #2005419d;
   border-radius: 50px;
   float: right;
+  margin-top:50px;
   margin-right: 50px;
 }
 
@@ -164,7 +164,7 @@ td {
   border-radius: 60px;
   box-shadow: 2px 2px #2005419d;
   float: right;
-  margin: 30px 150px 100px 200px;
+  margin: 190px 150px 100px 200px;
 }
 
 /* Estilo para section e h1, redundante com h1, mantido para consistência */
@@ -178,7 +178,7 @@ section {
   float: right;
   box-shadow: 2px 2px #2005419d;
   border-radius: 40px;
-  margin: 30px 200px 100px 200px;
+  margin: 100px 200px 100px 200px;
 }
 
 footer {
