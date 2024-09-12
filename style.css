@@ -4,10 +4,32 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
 }
 
-.quarter {
-  margin-top: 20px;
+.profiletext {
+  color: #2d114c;
+  font-family: monospace;
+  font-size: 2.5cap;
+  text-align: left;
+  justify-content: center;
+  background-color: #9e63dd4c;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-right: 520px;
+  margin-left: 50px;
+}
+.movietext{color: #2d114c;
+  font-family: monospace;
+  font-size: 2.5cap;
+  text-align: left;
+  
+  background-color: #9e63dd4c;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-right: 520px;
+  margin-left: 50px;
+
 }
 
 /* Estilo do corpo */
@@ -31,16 +53,25 @@ h1 {
 h2 {
   text-align: center;
   font-size: 4cap;
-  text-shadow: 2px 1px #2d114c;
+  text-shadow: 2px 1px #5b4277;
+  color: #e9e0f5;
+  background-color: #3b1767;
+  border-radius: 10px;
+  font-family: monospace;
+  margin: 100px 50px 10px 50px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 3cap;
+  text-shadow: 2px 1px #5b4277;
   color: #e9e0f5;
   background-color: #3b1767;
   border-radius: 5.5px;
-  font-family: monospace;
-  margin: 200px 50px 10px 50px;
 }
 
 /* Estilo dos parágrafos */
-p {
+.hometext {
   color: #2d114c;
   font-family: monospace;
   font-size: 2.5cap;
@@ -48,7 +79,7 @@ p {
   justify-content: center;
   background-color: #9e63dd4c;
   border-radius: 10px;
-  margin: 90px 400px 50px 50px;
+  margin: 50px 400px 100px 50px;
   margin-top: 100px;
 }
 
@@ -79,23 +110,23 @@ img#hz-logo {
   margin: 0px 15px 10px 0px;
 }
 
+.social {
+  text-align: center;
+  margin-bottom: 3s0px;
+}
+
 /* Estilo dos links */
-a:link,
-a:visited {
+a {
+  text-align: center;
   box-shadow: 2px 2px #2005419d;
   background-color: #3b1767;
   color: white;
-  padding: 14px 25px;
+  padding: 10px 20px;
   text-decoration: none;
   display: inline-block;
   border-radius: 8px;
   font-size: 2.5cap;
   font-family: monospace;
-}
-
-a:hover,
-a:active {
-  border-radius: 10px;
 }
 
 /* Estilo das imagens */
@@ -131,7 +162,7 @@ td {
 #eu {
   border-radius: 60px;
   float: right;
-  margin: 180px 100px 350px 90px;
+  margin: 0px 100px 350px 160px;
 }
 
 /* Estilo para section e h1, redundante com h1, mantido para consistência */
@@ -139,10 +170,14 @@ section {
   font-size: 1.7cap;
   font-family: monospace;
 }
+#kickass {border-radius: 40px;
+  float: right;
+}
 
-footer p {
-  margin: 0%;
+footer {
+
   text-align: center;
   font-size: 20px;
   display: block;
+  background-color: #9e63dd4c;
 }
