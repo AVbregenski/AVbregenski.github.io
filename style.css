@@ -164,7 +164,7 @@ td {
   border-radius: 60px;
   box-shadow: 2px 2px #2005419d;
   float: right;
-  margin: 30px 200px 100px 200px;
+  margin: 30px 150px 100px 200px;
 }
 
 /* Estilo para section e h1, redundante com h1, mantido para consistência */
@@ -175,7 +175,7 @@ section {
 
 #kick-ass {
 
-  float:right;
+  float: right;
   box-shadow: 2px 2px #2005419d;
   border-radius: 40px;
   margin: 30px 200px 100px 200px;
@@ -197,5 +197,50 @@ details {
   padding: 9px 9px;
   border-radius: 10px;
   justify-content: space-between;
-  color:#e9e0f5
+  color: #e9e0f5
+}
+
+.progress {
+  position: relative;
+  width: 500px;
+  height: 50px;
+  background: #5b4277;
+  border-radius: 15px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+  margin-left: 500px;
+
+  .progress_fill {
+    width: 0%;
+    height: 100%;
+    background: #2d114c;
+    border-radius: 15px;
+  }
+
+  .progress_text {
+    position: absolute;
+    top:50%;
+    right: 5px;
+    font: bold 20px "monospace";
+    color: white;
+  }
+}
+.mark {
+  border-left: 6px solid rgb(255, 255, 255);
+  height: 36px;
+  margin-left: 900px;
+  margin-top: 0px;
+}
+
+#nbsa-minimum {
+  font-size: 20px;
+  color: rgb(48, 27, 73);
+  margin-left: 840px;
+  padding-bottom: 10;
+}
+.ps{
+  font-size: 20px;
+  background-color:#5b427786;
+  border-radius: 15px;
+  text-align: center;
 }
