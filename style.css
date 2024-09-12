@@ -161,6 +161,7 @@ td {
 /* Estilo de elementos com id #eu */
 #eu {
   border-radius: 60px;
+  box-shadow: 2px 2px #2005419d;
   float: right;
   margin: 0px 100px 100px 160px;
 }
@@ -171,8 +172,8 @@ section {
   font-family: monospace;
 }
 #kick-ass {float: right;
+  box-shadow: 2px 2px #2005419d;
   border-radius: 40px;
-  margin: 0px 50px 50px 400px;
 }
 
 footer {
