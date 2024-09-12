@@ -188,6 +188,11 @@ footer {
   background-color: #9e63dd4c;
   padding: 10px;
   margin-top: 30px;
+
+  #logo {
+    float: right;
+margin-top: -5px;
+  }
 }
 
 details {
@@ -219,12 +224,13 @@ details {
 
   .progress_text {
     position: absolute;
-    top:50%;
+    top: 50%;
     right: 5px;
     font: bold 20px "monospace";
     color: white;
   }
 }
+
 .mark {
   border-left: 6px solid rgb(255, 255, 255);
   height: 36px;
@@ -238,9 +244,10 @@ details {
   margin-left: 840px;
   padding-bottom: 10;
 }
-.ps{
+
+.ps {
   font-size: 20px;
-  background-color:#5b427786;
+  background-color: #5b427786;
   border-radius: 15px;
   text-align: center;
 }
