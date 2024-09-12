@@ -162,7 +162,7 @@ td {
 #eu {
   border-radius: 60px;
   float: right;
-  margin: 0px 100px 350px 160px;
+  margin: 0px 100px 100px 160px;
 }
 
 /* Estilo para section e h1, redundante com h1, mantido para consistência */
@@ -170,8 +170,9 @@ section {
   font-size: 1.7cap;
   font-family: monospace;
 }
-#kickass {border-radius: 40px;
-  float: right;
+#kick-ass {float: right;
+  border-radius: 40px;
+  margin: 0px 50px 50px 400px;
 }
 
 footer {
