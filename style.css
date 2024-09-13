@@ -10,7 +10,7 @@
 .profiletext {
   color: #2d114c;
   font-family: monospace;
-  font-size: 2.5cap;
+  font-size: 2cap;
   text-align: left;
   justify-content: center;
   background-color: #9e63dd4c;
@@ -23,7 +23,7 @@
 .movietext {
   color: #2d114c;
   font-family: monospace;
-  font-size: 2.5cap;
+  font-size: 2cap;
   text-align: left;
   background-color: #9e63dd4c;
   border-radius: 10px;
@@ -75,7 +75,7 @@ h3 {
 .hometext {
   color: #2d114c;
   font-family: monospace;
-  font-size: 2.5cap;
+  font-size: 2cap;
   text-align: left;
   justify-content: center;
   background-color: #9e63dd4c;
@@ -250,4 +250,10 @@ details {
   background-color: #5b427786;
   border-radius: 15px;
   text-align: center;
+}
+p{
+  color: #2d114c;
+  font-family: monospace;
+  font-size: 2cap;
+  text-align: left;
 }
