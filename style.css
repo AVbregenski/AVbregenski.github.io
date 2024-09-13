@@ -95,12 +95,6 @@ h3 {
   border-radius: 10px;
 }
 
-ul {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-
 .infohome {
   text-align: center;
   float: center;
@@ -183,7 +177,7 @@ section {
 
 footer {
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
   display: block;
   background-color: #9e63dd4c;
   padding: 10px;
@@ -255,5 +249,18 @@ p{
   color: #2d114c;
   font-family: monospace;
   font-size: 2cap;
-  text-align: left;
+ 
 }
+
+.post{color: #2d114c;
+  font-family: monospace;
+  font-size: 2cap;
+  text-align: left;
+  background-color: #9e63dd4c;
+
+
+}
+
+
+
+
