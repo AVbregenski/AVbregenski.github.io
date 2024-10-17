@@ -1,33 +1,42 @@
 <!DOCTYPE html>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Dashboard</title>
-
-    <ul>
-        <a href="index.html">Home</a>
-        <a href="profile.html">Profile</a>
-        <a href="blog.html">Blog</a>
-        <a href="faq.html">FAQ</a>
-        <a href="dashboard.html">Dashboard</a>
-    </ul>
-    <aside>
-        <h3>Menu</h3>
-        <ul id="Menu">
-          <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/CER-HZ-Bachelor-full-time-2023-2024-DEF-version-20240412.pdf"
-            target="_blank">HZ HBO-ICT CER</a>
-          <a href="https://learn.hz.nl/course/view.php?id=23602#section-3" target="_blank">Learn environment</a>
-          <a href="https://hz.osiris-student.nl/home" target="_blank">My progress</a>
-          <a href="https://github.com/HZ-HBO-ICT" target="_blank">GitHub environment</a>
-        </ul>
-      </aside>
 </head>
 
 <body>
+    <img id="myLogo" src="photo2/myLogo.PNG" width="200px" height="150px">
+    <nav>
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="profile.html">Profile</a>
+            <a href="blog.html">Blog</a>
+            <a href="faq.html">FAQ</a>
+            <a href="dashboard.html">Dashboard</a>
+        </ul>
+    </nav>
+    <aside>
+        <h3>Menu</h3>
+        <ul id="Menu">
+            <a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/CER-HZ-Bachelor-full-time-2023-2024-DEF-version-20240412.pdf"
+                target="_blank">HZ HBO-ICT CER</a>
+            <a href="https://learn.hz.nl/course/view.php?id=23602#section-3" target="_blank">Learn environment</a>
+            <a href="https://hz.osiris-student.nl/home" target="_blank">My progress</a>
+            <a href="https://github.com/HZ-HBO-ICT" target="_blank">GitHub environment</a>
+        </ul>
+    </aside>
+
+    <h2>Year Program Progress</h2>
+    <div class="progress">
+        <div class="progress_fill"></div>
+        <span class="progress_text">10%</span>
+    </div>
+    <p>This graphic represents the progress of the study:(Now it just represents
+        a random percentage).</p>
 
     <h2>Information & Communication Technology</h2>
 
@@ -71,7 +80,6 @@
         </tr>
     </table>
     <table class="quarter">
-
         <tr>
             <th>Block 2: Game development</th>
             <th>Exams</th>
@@ -186,18 +194,12 @@
             <td>-</td>
         </tr>
     </table>
-    <h2>Year Program Progress</h2>
-    <div class="progress">
-        <div class="progress_fill"></div>
-        <span class="progress_text">10%</span>
-    </div>
-</div>
-<div class="mark"></div>
-<p id="nbsa-minimum">NBSA Minimum</p>
-</p>
-<p class="ps">PS: To complete the year you must achieve at least 60EC.</p>
+
+    <p>PS: To complete the year you must achieve at least 45EC.</p>
 </body>
 <footer>
     <img id="logo" src="photo2/hz-logo.png" alt="hz" width="60" height="65">
     <p>&copy;2024 Amanda Bregenski All rights reserved</p>
-  </footer>
+</footer>
+
+</html>

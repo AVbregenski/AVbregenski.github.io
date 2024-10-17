@@ -5,7 +5,14 @@
   margin-right: auto;
   margin-top: 20px;
 }
-.profiletext {
+
+#myLogo {
+  float: right;
+  margin-top: -40px;
+}
+
+.profiletext,
+.movietext {
   color: #2d114c;
   font-family: monospace;
   font-size: 2cap;
@@ -13,26 +20,18 @@
   justify-content: center;
   background-color: #9e63dd4c;
   border-radius: 10px;
-  margin-top: 100px;
+  margin-top: 12px;
   margin-right: 650px;
   margin-left: 50px;
+  margin-bottom: 100px;
 }
-.movietext {
-  color: #2d114c;
-  font-family: monospace;
-  font-size: 2cap;
-  text-align: left;
-  background-color: #9e63dd4c;
-  border-radius: 10px;
-  margin-top: 100px;
-  margin-right: 650px;
-  margin-left: 50px;
-}
+
 body {
-  background-color: rgb(228, 217, 237);
+  background-color: #d0e3e3;
   color: #3b1767;
   font-family: monospace;
 }
+
 h1 {
   text-align: center;
   color: #e9e0f5;
@@ -40,8 +39,9 @@ h1 {
   background-color: #3b1767;
   border-radius: 18px;
   font-family: monospace;
-  font-size: 10cap;
+  font-size: 8.5cap;
 }
+
 h2 {
   text-align: center;
   font-size: 4cap;
@@ -52,6 +52,7 @@ h2 {
   font-family: monospace;
   margin: 20px 50px 10px 50px;
 }
+
 h3 {
   text-align: center;
   font-size: 3cap;
@@ -60,6 +61,7 @@ h3 {
   background-color: #3b1767;
   border-radius: 5.5px;
 }
+
 .hometext {
   color: #2d114c;
   font-family: monospace;
@@ -71,6 +73,18 @@ h3 {
   margin: 50px 400px 100px 50px;
   margin-top: 100px;
 }
+.movieText{
+  color: #2d114c;
+  font-family: monospace;
+  font-size: 2cap;
+  text-align: left;
+  justify-content: center;
+  background-color: #9e63dd4c;
+  border-radius: 10px;
+margin-right: 50px;
+margin-left:50px;
+}
+
 #lists {
   color: #ffffff;
   font-family: monospace;
@@ -80,20 +94,24 @@ h3 {
   margin: 50px 50px 50px 50px;
   border-radius: 10px;
 }
+
 .infohome {
   text-align: center;
   float: center;
 }
-img#hz-logo {
+
+#hz-logo {
   float: right;
   margin: 0px 15px 10px 0px;
 }
+
 .social {
   text-align: center;
-  margin-bottom: 3s0px;
+  margin-bottom: 3px;
 }
+
 a {
-  text-align: center;
+  text-align: left;
   box-shadow: 2px 2px #2005419d;
   background-color: #3b1767;
   color: white;
@@ -104,18 +122,21 @@ a {
   font-size: 2.5cap;
   font-family: monospace;
 }
+
 #cartoon {
   box-shadow: 2px 2px #2005419d;
   border-radius: 50px;
   float: right;
-  margin-top:50px;
+  margin-top: 10px;
   margin-right: 50px;
 }
+
 #ict {
   float: center;
   box-shadow: 2px 2px #2005419d;
   border-radius: 1000px;
 }
+
 table,
 th,
 td {
@@ -127,23 +148,26 @@ td {
   border-radius: 4px;
   font-family: monospace;
 }
+
 #eu {
   border-radius: 60px;
   box-shadow: 2px 2px #2005419d;
   float: right;
-  margin: 190px 150px 100px 200px;
+  margin: 5px 150px 100px 200px;
 }
+
 section {
   font-size: 1.7cap;
   font-family: monospace;
 }
-#kick-ass {
 
-  float: right;
+#kick-ass {
+  float: center;
   box-shadow: 2px 2px #2005419d;
   border-radius: 40px;
-  margin: 100px 200px 100px 200px;
+  margin: 5px 200px 5px 620px;
 }
+
 footer {
   text-align: center;
   font-size: 15px;
@@ -151,11 +175,13 @@ footer {
   background-color: #9e63dd4c;
   padding: 10px;
   margin-top: 30px;
+
   #logo {
     float: right;
-margin-top: -5px;
+    margin-top: -5px;
   }
 }
+
 details {
   margin-bottom: 5px;
   background-color: #5b4277b1;
@@ -165,22 +191,24 @@ details {
   justify-content: space-between;
   color: #e9e0f5
 }
+
 .progress {
   position: relative;
   width: 500px;
   height: 50px;
-  background: #5b4277;
+  background: #7fb1b8;
   border-radius: 15px;
   margin-bottom: 0px;
   margin-top: 50px;
   margin-left: 500px;
 
   .progress_fill {
-    width: 0%;
+    width: 20%;
     height: 100%;
-    background: #2d114c;
+    background: #32a5a5;
     border-radius: 15px;
   }
+
   .progress_text {
     position: absolute;
     top: 50%;
@@ -189,35 +217,55 @@ details {
     color: white;
   }
 }
-.mark {
-  border-left: 6px solid rgb(255, 255, 255);
-  height: 36px;
-  margin-left: 900px;
-  margin-top: 0px;
-}
+
 #nbsa-minimum {
   font-size: 20px;
   color: rgb(48, 27, 73);
   margin-left: 840px;
   padding-bottom: 10;
 }
-.ps {
+
+.additionalText {
   font-size: 20px;
   background-color: #5b427786;
-  border-radius: 15px;
+  border-radius: 10px;
   text-align: center;
 }
-p{
+
+p {text-align: center;
   color: #2d114c;
   font-family: monospace;
   font-size: 2cap;
 }
-.post{color: #2d114c;
+
+.post{
+  color: #2d114c;
   font-family: monospace;
   font-size: 2cap;
   text-align: left;
   background-color: #9e63dd4c;
 }
-img{
+
+img {
   border-radius: 15px;
 }
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+.responsive-iframe {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+  #musica {
+margin-bottom: 20px;
+  }
