@@ -255,3 +255,6 @@ img {
 #musica {
   margin-bottom: 20px;
 }
+.active{
+  background-color: #427777;
+}
