@@ -101,7 +101,7 @@ h3 {
   float: center;
 }
 
-#hz-logo {
+#hzLogo {
   float: right;
   margin: 0px 15px 10px 0px;
 }
@@ -162,7 +162,7 @@ section {
   font-family: monospace;
 }
 
-#kick-ass {
+#kickAss {
   float: center;
   box-shadow: 2px 2px #2005419d;
   border-radius: 40px;
@@ -203,14 +203,14 @@ details {
   margin-top: 50px;
   margin-left: 500px;
 
-  .progress_fill {
+  .progressFill {
     width: 20%;
     height: 100%;
     background: #32a5a5;
     border-radius: 15px;
   }
 
-  .progress_text {
+  .progressText {
     position: absolute;
     top: 50%;
     right: 5px;
@@ -219,7 +219,7 @@ details {
   }
 }
 
-#nbsa-minimum {
+#nbsaMinimum {
   font-size: 20px;
   color: rgb(48, 27, 73);
   margin-left: 840px;
@@ -256,5 +256,14 @@ img {
   margin-bottom: 20px;
 }
 .active{
-  background-color: #427777;
+  background-color:  #426c77;
 }
+ .success {
+            background-color: #76d3cd; 
+            color: #2e7d32; 
+        }
+
+        .fail {
+            background-color: #eabdc2; 
+            color: #c62828;
+        }
